@@ -1,0 +1,29 @@
+@media(max-width:500px) {
+    li {
+        display: block;
+        padding-left: 5px;
+    }
+    .prd {
+        font-size: 16px;
+    }
+    .products .x1 {
+        width: 48%;
+        /* height: 370px; */
+    }
+    .products .x1 .prd-img {
+        height: 150px;
+    }
+    .products .x1 .prd-img:hover .prd-view {
+        top: 170px;
+    }
+    .products .x1 h3 a {
+        font-size: 16px;
+    }
+    .products .x1 .z1 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .products .x1 .button {
+        padding-top: 10px;
+    }
+}

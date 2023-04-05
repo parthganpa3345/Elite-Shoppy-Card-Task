@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* height: 600px; */
+    /* background: rgb(214, 201, 201); */
+    /* padding: 20px 0px; */
+}
+
+.cards {
+    /* height: 600px; */
+    width: 80%;
+    /* background: lightcoral; */
+    margin: auto;
+}
+
+p {
+    height: 50px;
+    /* background: lightgreen; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+ul {
+    /* height: 50px; */
+    /* background: lightpink; */
+    /* text-align: center; */
+    position: relative;
+}
+
+li {
+    display: inline;
+    background: lightgreen;
+    font-size: 16px;
+    padding: 10px 100px;
+}
+
+li:hover {
+    background: lightblue;
+}
+
+.main .cards ul li a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.products {
+    padding-top: 9px;
+    /* height: 520px; */
+    width: 100%;
+    /* background: rgb(155, 224, 86); */
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    justify-content: space-between;
+    /* box-shadow: 0 0 10px; */
+}
+
+li:hover .products {
+    visibility: visible;
+}
+
+.prd {
+    background: lightcoral;
+    padding: 5px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.products .x1 {
+    padding-top: 35px;
+    /* height: 520px; */
+    width: 24%;
+    border: 2px solid;
+    box-shadow: 0 0 10px;
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.products .x2 {
+    margin-top: 10px;
+}
+
+.products .x1 .prd-img .prd-view {
+    height: 50px;
+    width: 100%;
+    background: #000;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.products .x1 .prd-img .prd-view:hover {
+    background: lightseagreen;
+    cursor: pointer;
+}
+
+.products .x1 .prd-img:hover .prd-view {
+    top: 300px;
+    opacity: 1;
+    color: #fff;
+}
+
+.products .x1 h3 {
+    padding-top: 40px;
+}
+
+.products .x1 h3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products .x1 .z1 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.products .x1 .z1 span {
+    padding-right: 10px;
+}
+
+.products .x1 .button {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.products .x1 .button button {
+    height: 40px;
+    width: 80%;
+    background: lightseagreen;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
